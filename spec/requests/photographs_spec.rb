@@ -1,5 +1,7 @@
 require 'rails_helper'
 
+# Returns all photographs in the authenticated user's feed, newest to oldest
+# 
 RSpec.describe "Photographs", type: :request do
   describe "GET /index" do
     it "returns http success" do
